@@ -14,8 +14,8 @@ body {
 
 #toggle {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
     background: #37a6ff;
     cursor: pointer;
     display: flex;
@@ -27,22 +27,22 @@ body {
 #toggle::before {
     content: '';
     position: absolute;
-    width: 180px;
+    width: 24px;
     height: 2px;
     background: #fff;
     transition: 0.2s;
-    transform: translateY(-50px);
-    box-shadow: 0 50px 0 #fff;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 0 #fff;
 }
 
 #toggle::after {
     content: '';
     position: absolute;
-    width: 180px;
+    width: 24px;
     height: 2px;
     background: #fff;
     transition: 0.2s;
-    transform: translateY(50px);
+    transform: translateY(10px);
 }
 
 #toggle.active::after {
